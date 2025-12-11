@@ -1,5 +1,6 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import SiapCover from "../assets/img/siap.png";
+import PortfolioCover from "../assets/img/portfolio.png";
 
 const projects = [
   {
@@ -10,6 +11,15 @@ const projects = [
     image: SiapCover,
     tags: ["Vue.js", "Laravel", "TailwindCSS"],
     githubUrl: "https://github.com/zaidanariq26/siap-frontend.git",
+  },
+  {
+    id: 2,
+    title: "Portfolio Website",
+    description:
+      "My personal developer portfolio, featuring selected projects, skills, and contact information.",
+    image: PortfolioCover,
+    tags: ["React", "TailwindCSS"],
+    githubUrl: "https://github.com/zaidanariq26/portfolio.git",
   },
 ];
 
